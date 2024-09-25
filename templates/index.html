@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<section id="about" class="about mb-4 p-4 bg-white rounded shadow-sm">
+    <img src="{{ url_for('static', filename='andre.jpeg') }}" alt="Foto de Perfil" class="profile-pic d-block mx-auto mb-3">
+    <h2>About me:</h2>
+    <p>André Guedes  - 24 Years </p>
+    <p>Cursando o quarto semetre do curso de Ciência da Computação na Unimax</p>
+
+</section>
+{% endblock %}

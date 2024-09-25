@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Sobre{% endblock %}
+{% block content %}
+<section id="about" class="about mb-4 p-4 bg-white rounded shadow-sm">
+    <img src="{{ url_for('static', filename='andre.jpeg') }}" alt="Foto de Perfil" class="profile-pic d-block mx-auto mb-3">
+    <h2 class="section-title h4">Sobre Mim</h2>
+    <p><strong>André Guedes</strong></p>
+    <p>Olá, me André, sou entusiasta da tecnologia que atualmente trabalho no Suporte ao Cliente na John Deere e estudo Ciência da Computação na Unimax. Minha jornada no campo da tecnologia foi impulsionada por uma paixão pela inovação e um compromisso com a excelência.</p>
+    <p>Aos 24 anos, minha formação educacional inclui foco em programação e arquitetura de dados, o que complementa minha função atual e aspirações futuras de carreira.</p>
+    <p>Além do meu trabalho profissional, fiz vários cursos em Power BI, inglês e Office Suite, que me equiparam com habilidades essenciais para análise de dados e comunicação eficaz.</p>
+    <p>Sou apaixonado por alavancar minhas habilidades para gerar resultados impactantes e estou sempre em busca de novas oportunidades para crescer e contribuir na indústria de tecnologia.</p>
+</section>
+{% endblock %}
