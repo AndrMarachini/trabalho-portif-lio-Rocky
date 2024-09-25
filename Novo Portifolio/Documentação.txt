@@ -1,0 +1,31 @@
+Explicação dos Componentes Bootstrap Utilizados
+
+1 - Cabeçalho (header)
+
+    ºUtiliza classes bg-dark e text-white para estilização do fundo e do texto.
+    ºA classe text-center centraliza o conteúdo.
+
+2 - Navegação (nav)
+
+    ºUtiliza a classe navbar com modificadores navbar-expand-lg e navbar-light bg-light para criar uma barra de navegação responsiva e clara.
+    ºO botão navbar-toggler é usado para colapsar a navegação em telas menores.
+
+3 - Container Principal (container)
+
+    ºA classe container mt-4 é usada para centralizar o conteúdo e adicionar margem superior.
+
+4 - Rodapé (footer)
+
+    ºUtiliza classes text-center, py-3, bg-dark, e text-white para estilização e centralização do texto.
+
+5 - Estilos Personalizados
+
+    ºO estilo .profile-pic é usado para definir a aparência da imagem de perfil.
+
+6 - Inclusão do Bootstrap
+    ºO CSS do Bootstrap é incluído para fornecer estilos prontos e responsivos. Link: https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
+            •https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
+    ºO JavaScript do Bootstrap e suas dependências são incluídos para funcionalidades interativas, como a barra de navegação colapsável. Links:
+            •jQuery: https://code.jquery.com/jquery-3.5.1.slim.min.js
+            •Popper.js: https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js
+            •Bootstrap JS: https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js

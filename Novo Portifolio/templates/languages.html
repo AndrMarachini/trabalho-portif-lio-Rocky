@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Linguagens{% endblock %}
+{% block content %}
+<div class="container-xxl mt-4">
+    <section id="languages" class="languages mb-4 p-4 bg-white rounded shadow-sm">
+        <h2 class="section-title h4">Principais Linguagens</h2>
+        <ul class="list-unstyled">
+            <li class="bg-light p-2 mb-2 rounded" onclick="toggleInfo('python-info')">● Power BI
+                <div id="python-info" style="display: none;">
+                    <p>Sou um profissional no uso do Power BI para desenvolver dashboards dinamicos usando banco de dados como SQL</p>
+                </div>
+            <li class="bg-light p-2 mb-2 rounded" onclick="toggleInfo('python-info')">● Python
+                <div id="python-info" style="display: none;">
+                    <p>Sou um desenvolvedor com experiência em Python, incluindo o uso de dicionários e listas. Tenho habilidades sólidas em programação orientada a objetos, o que me permite criar soluções eficientes e bem estruturadas. Estou sempre em busca de novos desafios para aprimorar minhas habilidades e contribuir para o sucesso dos projetos em que estou envolvido.</p>
+                </div>
+            </li>
+            <li class="bg-light p-2 mb-2 rounded" onclick="toggleInfo('cpp-info')">● C++
+                <div id="cpp-info" style="display: none;">
+                    <p>Sou um programador iniciante em C++, com uma base sólida nos conceitos fundamentais da linguagem. Tenho experiência em trabalhar com estruturas de dados básicas, como listas e dicionários. Estou entusiasmado para aplicar meus conhecimentos em projetos reais e continuar aprendendo e crescendo na área de desenvolvimento de software.</p>
+                </div>
+            </li>
+            <li class="bg-light p-2 mb-2 rounded" onclick="toggleInfo('mysql-info')">● MySQL
+                <div id="mysql-info" style="display: none;">
+                    <p>Sou um programador com conhecimentos básicos em MySQL e atualmente estou me aprofundando nessa tecnologia. Tenho experiência inicial na criação e manipulação de bancos de dados, incluindo a execução de consultas básicas e a utilização de comandos SQL para inserção, atualização e exclusão de dados. Estou expandindo minhas habilidades para incluir a otimização de consultas, a criação de índices e o gerenciamento de transações, com o objetivo de desenvolver aplicações mais robustas e eficientes. Estou entusiasmado para aplicar esses conhecimentos em projetos reais e continuar evoluindo na área de banco de dados.</p>
+                </div>
+            </li>
+            <li class="bg-light p-2 mb-2 rounded" onclick="toggleInfo('hardware-info')">● Hardware
+                <div id="hardware-info" style="display: none;">
+                    <p>Sou um profissional com conhecimento em hardware, especializado na montagem, manutenção e otimização de sistemas computacionais. Tenho experiência na instalação e configuração de componentes eletrônicos, como placas-mãe, processadores, memórias e unidades de armazenamento. Além disso, possuo habilidades em diagnóstico e resolução de problemas técnicos, garantindo o funcionamento eficiente e seguro dos equipamentos. Estou sempre atualizado com as últimas inovações tecnológicas e busco constantemente aprimorar minhas habilidades para oferecer soluções de alta qualidade.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+</div>
+
+<script>
+function toggleInfo(id) {
+    var info = document.getElementById(id);
+    if (info.style.display === "none") {
+        info.style.display = "block";
+    } else {
+        info.style.display = "none";
+    }
+}
+</script>
+{% endblock %}
